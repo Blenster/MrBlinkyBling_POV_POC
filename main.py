@@ -21,8 +21,8 @@ multiMode = "folder"  # folder | zip
 # multiMode = "zip"  # folder | zip
 # TODO variables for Pi to micro-controller data exchange, etc. (resolution, GPIO to set HI/LOW - count, period)
 
-# lists
-multiImageList = []  # holds a list of lists; each list holds a list of pixel RGB tuples
+# lists and dictionaries
+multiImageDict = {}  # holds a list of lists; each list holds a list of pixel RGB tuples
 imageDataList = []  # holds a list of pixel RGB tuples
 
 # constants
